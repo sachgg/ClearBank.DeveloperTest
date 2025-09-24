@@ -20,8 +20,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearBank.DeveloperTest", "tech-test-dotnet-main\ClearBank.DeveloperTest\ClearBank.DeveloperTest.csproj", "{68158751-3993-D8D8-C09C-33483E5ACB20}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,10 +42,6 @@ Global
 		{2A83137C-32B8-4513-8F8C-5913F78657F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A83137C-32B8-4513-8F8C-5913F78657F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A83137C-32B8-4513-8F8C-5913F78657F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{68158751-3993-D8D8-C09C-33483E5ACB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68158751-3993-D8D8-C09C-33483E5ACB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68158751-3993-D8D8-C09C-33483E5ACB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68158751-3993-D8D8-C09C-33483E5ACB20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,7 +51,6 @@ Global
 		{AAE8629C-F1DA-4344-8B19-CFF06FB83D76} = {C5462E81-6F9D-4A7A-8CAE-59F7A45ACAE3}
 		{AD438981-E709-4F35-BD68-B35F8973A57F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{2A83137C-32B8-4513-8F8C-5913F78657F0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{68158751-3993-D8D8-C09C-33483E5ACB20} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BCDD9DD6-D423-48D4-BF2E-67533CADECAD}

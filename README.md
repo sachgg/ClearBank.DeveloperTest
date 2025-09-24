@@ -23,13 +23,13 @@ Changes:
 Moved payment validation logic into Account class, encapsulating business logic and having a single source of truth.
 
 Reason:
- - Improves code reuseability.
+ - Improves code reusability.
  - Prevent accidental modification of logic.
 
 3. Error Handling and Result Reporting
 
 Problem:
-The original method only returned a bool to indicate sucess or failure.
+The original method only returned a bool to indicate success or failure.
 
 Changes:
 Return detailed error messages and failure types to indicate the type of failure
@@ -60,7 +60,7 @@ Added BankTransaction class to log all payments that were attempted even if it f
 
 Reason:
  - Provide clear audit trail for all payment operations
- - Enables tracking and troubleshooting of payment actitivty
+ - Enables tracking and troubleshooting of payment activity
 
  6. Tests
  
@@ -89,7 +89,7 @@ Reason:
  - Create api endpoint and all processes upstream of PaymentService
 
 5. Downstream
- - Implement notification system through events should payment succed or fail.
+ - Implement notification system through events should payment succeed or fail.
 
 6. Integration tests
  - Create integration tests to ensure multiple services are working together correctly
